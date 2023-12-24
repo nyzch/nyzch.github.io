@@ -9,7 +9,7 @@ export const Projects = () => {
     const projects = [
         {
             title: "Song Association",
-            description: "An addictive Django web game made for 17-437 Web Application Development",
+            description: "An addictive Django web game made for 17-437 Web Application Development. Uses websockets for real-time interaction",
             imgUrl: projImg1,
             projUrl: "/projects/songassociation"
         },
