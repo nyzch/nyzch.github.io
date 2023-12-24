@@ -260,11 +260,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 
+.proj-imgbx img {
+  max-height: 100%;
+  object-fit: cover;
+}
+
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  width: 350px;
+  height: 350px;
 }
 
 

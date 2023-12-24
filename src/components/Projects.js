@@ -1,6 +1,6 @@
 import { Container, Col, Row, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
+import projImg1 from "../assets/img/songassociation-main.jpg";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -9,7 +9,7 @@ export const Projects = () => {
     const projects = [
         {
             title: "Song Association",
-            description: "An addictive Django web game made for 17-437 Web Application Development. Uses websockets for real-time interaction",
+            description: "An addictive Django web application made for 17-437 Web Application Development. Uses websockets for real-time interaction",
             imgUrl: projImg1,
             projUrl: "/projects/songassociation"
         },
@@ -22,24 +22,6 @@ export const Projects = () => {
         {
             title: "Linux Shell",
             description: "Third project",
-            imgUrl: projImg3,
-            projUrl: "/"
-        },
-        {
-            title: "Proj 4",
-            description: "Fourth project",
-            imgUrl: projImg1,
-            projUrl: "/"
-        },
-        {
-            title: "Proj 5",
-            description: "Fifth project",
-            imgUrl: projImg2,
-            projUrl: "/"
-        },
-        {
-            title: "Proj 6",
-            description: "Sixth project",
             imgUrl: projImg3,
             projUrl: "/"
         },
