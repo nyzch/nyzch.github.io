@@ -38,6 +38,7 @@ export const NavBar = () => {
                             <Nav.Link as={HashLink} to="/#about" className={activeLink === 'about' ? 'active' : ''} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
                             <Nav.Link as={HashLink} to="/#skills" className={activeLink === 'skills' ? 'active' : ''} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                             <Nav.Link as={Link} to="/projects" className={activeLink === 'projects' ? 'active' : ''} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                            <Nav.Link as={Link} to="/experience" className={activeLink === 'experience' ? 'active' : ''} onClick={() => onUpdateActiveLink('experience')}>Experiences</Nav.Link>
                         </Nav>
                         <span className="navbar-text">
                             <div className="social-icon">

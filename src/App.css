@@ -351,3 +351,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
   margin: 0 auto 15px auto;
 }
+
+/* Experience CSS */
+.experience {
+  padding: 80px 0 20px 20px;
+  position: relative;
+  background-color: black;
+}
+
+.experience h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.exp-imgbx img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.exp-imgbx {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+div.left img {
+  float: left;
+}
+
+div.right img {
+  float: right;
+}
