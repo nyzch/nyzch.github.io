@@ -1,19 +1,23 @@
-import Carousel from 'react-bootstrap/Carousel';
-import mainImg from "../../assets/img/songassociation-main.jpg";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import mainImg from "../../assets/img/songassociation-oldmain.jpg";
+import lobbyImg from "../../assets/img/songassociation-lobby.jpg";
+import tracksImg from "../../assets/img/songassociation-tracks.jpg";
+import leaderboardImg from "../../assets/img/songassociation-leaderboard.jpg";
 
 export const SongAssociation = () => {
     const responsive = {
         superLargeDesktop: {
             breakpoint: { max: 4000, min: 3000 },
-            items: 5
+            items: 1
         },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
-            items: 3
+            items: 1
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
-            items: 2
+            items: 1
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
@@ -42,6 +46,18 @@ export const SongAssociation = () => {
                     <div className="item">
                         <img src={mainImg} alt="" />
                         <h5>Main page</h5>
+                    </div>
+                    <div className="item">
+                        <img src={lobbyImg} alt="" />
+                        <h5>Game page</h5>
+                    </div>
+                    <div className="item">
+                        <img src={tracksImg} alt="" />
+                        <h5>Song page</h5>
+                    </div>
+                    <div className="item">
+                        <img src={leaderboardImg} alt="" />
+                        <h5>Leaderboard</h5>
                     </div>
                 </Carousel>
             </div>
