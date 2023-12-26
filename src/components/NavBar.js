@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Outlet, Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
-import logo from '../assets/img/logo.png';
 import navIcon1 from '../assets/img/nav-linkedin.svg';
 import navIcon2 from '../assets/img/nav-github.svg';
 
@@ -30,7 +29,7 @@ export const NavBar = () => {
             <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
                 <Container>
                     <Navbar.Brand href="/#home">
-                        <img src={logo} alt="Nancy Zhong" height="30" />
+                        Nancy Zhong
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
