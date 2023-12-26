@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { NavBar } from './components/NavBar';
 import { About } from './components/About';
@@ -10,6 +8,7 @@ import { Banner } from './components/Banner';
 import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { SongAssociation } from './components/projects/songassociation';
+import { MallocLab } from './components/projects/malloclab';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/projects/songassociation",
         element: <SongAssociation />
+      },
+      {
+        path: "/projects/memoryallocator",
+        element: <MallocLab />
       }
     ]
   }

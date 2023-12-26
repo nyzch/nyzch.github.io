@@ -1,8 +1,8 @@
-import { Container, Col, Row, Nav, Tab } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/songassociation-main.jpg";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg2 from "../assets/img/tentendata.jpg";
+import projImg3 from "../assets/img/malloclab-case2.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
@@ -14,16 +14,16 @@ export const Projects = () => {
             projUrl: "/projects/songassociation"
         },
         {
-            title: "Dynamic Memory Allocator",
-            description: "Second project",
+            title: "Multithreaded Command Line Tool",
+            description: "My internship project at 1010data that reduced data querying times by 50%. An early step in the company's new direction of modernizing their tools",
             imgUrl: projImg2,
-            projUrl: "/"
+            projUrl: "/experience"
         },
         {
-            title: "Linux Shell",
-            description: "Third project",
+            title: "Dynamic Memory Allocator",
+            description: "My own implementations of malloc, calloc, realloc, and free made for 15-213 Introduction to Computer Systems.",
             imgUrl: projImg3,
-            projUrl: "/"
+            projUrl: "/projects/memoryallocator"
         },
     ];
     return (
