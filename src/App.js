@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Error } from './components/Error';
 import { NavBar } from './components/NavBar';
 import { About } from './components/About';
 import { Skills } from './components/Skills';
@@ -33,7 +34,11 @@ const router = createBrowserRouter([
       {
         path: "/projects/memoryallocator",
         element: <MallocLab />
-      }
+      },
+      {
+        path: "*",
+        element: <Error />
+      },
     ]
   }
 ])

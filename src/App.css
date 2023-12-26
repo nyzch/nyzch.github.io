@@ -30,6 +30,29 @@ h6 {
   line-height: normal;
 }
 
+/* Error page CSS */
+.error-page {
+  padding: 80px 0;
+  position: relative;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-page div {
+  text-align: center;
+}
+
+.error-page p {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+
 /* NavBar CSS */
 nav.navbar {
   padding: 18px 0;
