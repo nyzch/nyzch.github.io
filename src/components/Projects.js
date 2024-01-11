@@ -3,10 +3,17 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/songassociation-main.jpg";
 import projImg2 from "../assets/img/tentendata.jpg";
 import projImg3 from "../assets/img/malloclab-case2.jpg";
+import projImg4 from "../assets/img/gptreadingbuddy.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
     const projects = [
+        {
+            title: "ChatGPT Chrome Plugin",
+            description: "Coming soon! A Chrome extension that uses OpenAI's API to define/explain user-selected text so users never have to leave the webpage to learn what something means.",
+            imgUrl: projImg4,
+            projUrl: "https://github.com/nyzch/gpt-reading-buddy"
+        },
         {
             title: "Song Association",
             description: "An addictive Django web application made for 17-437 Web Application Development. Uses websockets for real-time interaction",

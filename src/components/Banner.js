@@ -51,7 +51,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my portfolio</span>
                         <h1>{`Nancy Zhong | `}<span className="wrap">{text}</span></h1>
-                        <p>CS @ Carnegie Mellon University, graduating May 2025</p>
+                        <p>CS @ Carnegie Mellon University, graduating December 2024/May 2025</p>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <BongoCat />
